@@ -18,22 +18,21 @@ switch(opcao){
     let n3 = Number(prompt ("Digite um número:"))
       let n4 = Number(prompt ("Digite outro número:"))
         let resultado2 = n3-n4;
-    console.log(resultado2)
-    
+    console.log(resultado2)  
     break;
-    case "3"://dividir
-    let n5 = Number(prompt ("Digite um número:"))
-      let n6 = Number(prompt ("Digite outro número:"))
-        let resultado3 = n5/n6;
-    console.log(resultado3)
-    
-    break;
-    case "4"://multiplicação
+   case "3"://multiplicação
     let n7 = Number(prompt ("Digite um número:"))
       let n8 = Number(prompt ("Digite outro número:"))
-        let resultado4 = n7*n8;
+        let resultado4 = n5*n6;
+    console.log(resultado3)
+    break;
+    case "4"://dividir
+    let n5 = Number(prompt ("Digite um número:"))
+      let n6 = Number(prompt ("Digite outro número:"))
+        let resultado3 = n7/n8;
     console.log(resultado4)
     
   default:
     console.log("Digite um valor válido")    
 }}
+
