@@ -1,21 +1,39 @@
+for (let i = 0; i > -1;i++){
 console.log("Digite 1 para somar")
-console.log("Digite 2 para subtrair")
-console.log("Digite 3 para multiplicar")
+console.log("Digite 2 para subtração")
+console.log("Digite 3 para multiplicação")
 console.log("Digite 4 para Dividir")
 console.log("Digite 5 para sair")
 let opcao = prompt("Digite a opção desejada:")
 
 switch(opcao){
 
-  case "1":
+  case "1"://soma
     let n1 =Number(prompt("Digite um número:"))
     let n2 = Number(prompt("Digite outro número:"))
-    let resultado = n1 + n2
-    console.log(resultado)
+    let resultado1 = n1 + n2;
+    console.log(resultado1)
     break;
-  case "2":
-   
+  case "2"://subtração
+    let n3 = Number(prompt ("Digite um número:"))
+      let n4 = Number(prompt ("Digite outro número:"))
+        let resultado2 = n3-n4;
+    console.log(resultado2)
+    
     break;
+    case "3"://dividir
+    let n5 = Number(prompt ("Digite um número:"))
+      let n6 = Number(prompt ("Digite outro número:"))
+        let resultado3 = n5/n6;
+    console.log(resultado3)
+    
+    break;
+    case "4"://multiplicação
+    let n7 = Number(prompt ("Digite um número:"))
+      let n8 = Number(prompt ("Digite outro número:"))
+        let resultado4 = n7*n8;
+    console.log(resultado4)
+    
   default:
     console.log("Digite um valor válido")    
-}
+}}
