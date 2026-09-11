@@ -29,7 +29,7 @@ console.log(multiplicação)
 
 let n7 = Number(prompt("Digite um número:"))
 let n8 = Number(prompt("Digite outro número:"))
-let multiplicação = n7/n8
+let divisão = n7/n8
 console.log(divisão)
 
 
