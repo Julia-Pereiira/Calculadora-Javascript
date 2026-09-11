@@ -9,9 +9,9 @@ let opcao = prompt("Digite a opção desejada:")
 switch(opcao){
 
   case "1"://soma
-    let n1 =Number(prompt("Digite um número:"))
-    let n2 = Number(prompt("Digite outro número:"))
-    let resultado1 = n1 + n2;
+    let n1 =Number(prompt ("Digite um número:"))
+    let n2 = Number(prompt ("Digite outro número:"))
+    let resultado1 = n1+n2;
     console.log(resultado1)
     break;
   case "2"://subtração
@@ -23,13 +23,13 @@ switch(opcao){
    case "3"://multiplicação
     let n7 = Number(prompt ("Digite um número:"))
       let n8 = Number(prompt ("Digite outro número:"))
-        let resultado4 = n5*n6;
+        let resultado3 = n5*n6;
     console.log(resultado3)
     break;
     case "4"://dividir
     let n5 = Number(prompt ("Digite um número:"))
       let n6 = Number(prompt ("Digite outro número:"))
-        let resultado3 = n7/n8;
+        let resultado4 = n7/n8;
     console.log(resultado4)
     
   default:
